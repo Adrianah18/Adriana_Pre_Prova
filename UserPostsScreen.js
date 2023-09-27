@@ -42,20 +42,21 @@ const UserPostsScreen = ({ route }) => {
   postItem: {
     marginBottom: 16,
     padding: 16,
-    backgroundColor: '#ffffff',
-    borderRadius: 8,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    elevation: 2,
+    backgroundColor: '#FFC2D1',
+    borderRadius: 15,
   },
   postTitle: {
-    fontSize: 18,
+    fontSize: 25,
     fontWeight: 'bold',
+    color:'#936ED4',
+    textAlign:'center',
   },
   postBody: {
-    fontSize: 16,
+    fontSize: 20,
     marginTop: 8,
+    fontStyle:'normal',
+    textAlign:'center',
+    color:"white"
   },
 });
 

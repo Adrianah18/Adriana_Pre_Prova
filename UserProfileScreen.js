@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   },
   userProfile: {
     padding: 16,
-    backgroundColor: '#ffffff',
+    backgroundColor: '#FFC2D1',
     borderRadius: 8,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
@@ -51,12 +51,17 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   userName: {
-    fontSize: 18,
+    fontSize: 25,
     fontWeight: 'bold',
+    color: '#936ED4',
+    textAlign: 'center',
   },
   userEmail: {
-    fontSize: 16,
+    fontSize: 20,
     marginVertical: 8,
+    textAlign: 'center',
+    fontWeight:'bold',
+    color: 'white',
   },
   loadingText: {
     fontSize: 18,

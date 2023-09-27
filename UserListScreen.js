@@ -24,7 +24,7 @@ const UserListScreen = ({ navigation }) => {
         renderItem={({ item }) => (
           <View style={styles.userItem}>
             <Text style={styles.userName}>{item.name}</Text>
-            <Button
+            <Button 
               title="Ver Perfil"
               onPress={() => navigation.navigate('UserProfile', { userId: item.id })}
             />
@@ -44,17 +44,18 @@ const styles = StyleSheet.create({
   userItem: {
     marginBottom: 16,
     padding: 16,
-    backgroundColor: '#ffffff',
-    borderRadius: 8,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    elevation: 2,
+    backgroundColor: '#FFC2D1',
+    borderRadius: 15,
+    
   },
   userName: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 20,
+    color: '#936ED4'
   },
+ 
 });
 
 export default UserListScreen;

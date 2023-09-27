@@ -14,7 +14,7 @@ export default function App() {
     <PaperProvider>
       <NavigationContainer>
         <Stack.Navigator initialRouteName="UserList">
-          <Stack.Screen name="UserList" component={UserListScreen} />
+          <Stack.Screen name="Lista de Usuários" component={UserListScreen} />
           <Stack.Screen name="UserProfile" component={UserProfileScreen} />
           <Stack.Screen name="UserPosts" component={UserPostsScreen} />
         </Stack.Navigator>
